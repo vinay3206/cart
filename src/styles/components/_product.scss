@@ -1,0 +1,16 @@
+.product-card {
+  background-color: white;
+  padding: 1.5rem;
+  @extend .border;
+  display: inline-flex;
+  height: 400px;
+  width: 190px;
+  margin: 10px;
+  display: block;
+  text-align: center;
+
+  &-title {
+    display: block;
+    font-weight: bold;
+  }
+}

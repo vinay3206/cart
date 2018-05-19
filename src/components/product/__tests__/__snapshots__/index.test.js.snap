@@ -1,0 +1,97 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly when count is 0 and add to cart is enabled 1`] = `
+<div
+  className="d-inline-flex"
+>
+  <a
+    className="product-card"
+    href="/detail/120"
+    onClick={[Function]}
+  >
+    <img
+      alt={120}
+      src="https://4.bp.blogspot.com/-aI_KMIohZHQ/VN_63b-lsQI/AAAAAAAAZd4/6sifxckbEgQ/s1600/F%26N%2BNutriTea%2BBarley%2BDrink_1L.jpg"
+      style={
+        Object {
+          "height": "200px",
+        }
+      }
+    />
+    <h4
+      className="product-card-title"
+    >
+      Nutri Well Barly
+       
+       
+       
+      Mangolia
+    </h4>
+    <div>
+      
+    </div>
+    <div>
+      $
+      2.25
+    </div>
+    <div>
+      <button
+        className="btn-flat btn-red"
+        disabled={false}
+        onClick={[Function]}
+      >
+        Add to Cart
+      </button>
+    </div>
+  </a>
+  ;
+</div>
+`;
+
+exports[`renders correctly when count is 1 and add to cart is disabled 1`] = `
+<div
+  className="d-inline-flex"
+>
+  <a
+    className="product-card"
+    href="/detail/120"
+    onClick={[Function]}
+  >
+    <img
+      alt={120}
+      src="https://4.bp.blogspot.com/-aI_KMIohZHQ/VN_63b-lsQI/AAAAAAAAZd4/6sifxckbEgQ/s1600/F%26N%2BNutriTea%2BBarley%2BDrink_1L.jpg"
+      style={
+        Object {
+          "height": "200px",
+        }
+      }
+    />
+    <h4
+      className="product-card-title"
+    >
+      Nutri Well Barly
+       
+       
+       
+      Mangolia
+    </h4>
+    <div>
+       Qunatity: 1
+    </div>
+    <div>
+      $
+      2.25
+    </div>
+    <div>
+      <button
+        className="btn-flat btn-red"
+        disabled={true}
+        onClick={[Function]}
+      >
+        Add to Cart
+      </button>
+    </div>
+  </a>
+  ;
+</div>
+`;

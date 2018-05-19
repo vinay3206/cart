@@ -1,0 +1,109 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly with Cart link 1`] = `
+<div
+  className="header"
+>
+  <div
+    className="pull-right"
+  >
+    <a
+      className="btn-flat btn-red"
+      href="/cart"
+      onClick={[Function]}
+    >
+      Cart
+      
+    </a>
+  </div>
+</div>
+`;
+
+exports[`renders correctly with Home and cart link 1`] = `
+<div
+  className="header"
+>
+  <div
+    className="pull-right"
+  >
+    <a
+      className="btn-flat btn-blue-light"
+      href="/home"
+      onClick={[Function]}
+    >
+      Home
+    </a>
+    <a
+      className="btn-flat btn-red"
+      href="/cart"
+      onClick={[Function]}
+    >
+      Cart
+      
+    </a>
+  </div>
+</div>
+`;
+
+exports[`renders correctly with Home link 1`] = `
+<div
+  className="header"
+>
+  <div
+    className="pull-right"
+  >
+    <a
+      className="btn-flat btn-blue-light"
+      href="/home"
+      onClick={[Function]}
+    >
+      Home
+    </a>
+  </div>
+</div>
+`;
+
+exports[`renders correctly with cart link and count 1`] = `
+<div
+  className="header"
+>
+  <div
+    className="pull-right"
+  >
+    <a
+      className="btn-flat btn-red"
+      href="/cart"
+      onClick={[Function]}
+    >
+      Cart
+       (4)
+    </a>
+  </div>
+</div>
+`;
+
+exports[`renders correctly with home,cart link and count 1`] = `
+<div
+  className="header"
+>
+  <div
+    className="pull-right"
+  >
+    <a
+      className="btn-flat btn-blue-light"
+      href="/home"
+      onClick={[Function]}
+    >
+      Home
+    </a>
+    <a
+      className="btn-flat btn-red"
+      href="/cart"
+      onClick={[Function]}
+    >
+      Cart
+       (4)
+    </a>
+  </div>
+</div>
+`;

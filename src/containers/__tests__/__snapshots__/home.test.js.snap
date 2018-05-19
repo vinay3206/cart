@@ -1,0 +1,380 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<div>
+  <div
+    className="header"
+  >
+    <div
+      className="pull-right"
+    >
+      <a
+        className="btn-flat btn-red"
+        href="/cart"
+        onClick={[Function]}
+      >
+        Cart
+        
+      </a>
+    </div>
+  </div>
+  <div
+    className="flex-container"
+  >
+    <div
+      className="filter-container flex-3"
+    >
+      <div>
+        <div
+          className="filter"
+        >
+          <span
+            className="filter-category"
+          >
+            Brands
+          </span>
+          <div
+            className="filter-option"
+          >
+            <input
+              checked={undefined}
+              onChange={[Function]}
+              type="checkbox"
+            />
+            <span
+              className="filter-option-label"
+            >
+              Mangolia
+            </span>
+          </div>
+          <div
+            className="filter-option"
+          >
+            <input
+              checked={undefined}
+              onChange={[Function]}
+              type="checkbox"
+            />
+            <span
+              className="filter-option-label"
+            >
+              Meiji
+            </span>
+          </div>
+        </div>
+        <div
+          className="filter"
+        >
+          <span
+            className="filter-category"
+          >
+            Price
+          </span>
+          <div
+            className="filter-option"
+          >
+            <input
+              checked={undefined}
+              onChange={[Function]}
+              type="checkbox"
+            />
+            <span
+              className="filter-option-label"
+            >
+              0-5
+            </span>
+          </div>
+          <div
+            className="filter-option"
+          >
+            <input
+              checked={undefined}
+              onChange={[Function]}
+              type="checkbox"
+            />
+            <span
+              className="filter-option-label"
+            >
+              5-10
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      className="home-content-container flex-6 border-left-0"
+    >
+      <div
+        className="d-inline-flex"
+      >
+        <a
+          className="product-card"
+          href="/detail/120"
+          onClick={[Function]}
+        >
+          <img
+            alt={120}
+            src="https://4.bp.blogspot.com/-aI_KMIohZHQ/VN_63b-lsQI/AAAAAAAAZd4/6sifxckbEgQ/s1600/F%26N%2BNutriTea%2BBarley%2BDrink_1L.jpg"
+            style={
+              Object {
+                "height": "200px",
+              }
+            }
+          />
+          <h4
+            className="product-card-title"
+          >
+            Nutri Well Barly
+             
+             
+             
+            Mangolia
+          </h4>
+          <div>
+            
+          </div>
+          <div>
+            $
+            2.25
+          </div>
+          <div>
+            <button
+              className="btn-flat btn-red"
+              disabled={false}
+              onClick={[Function]}
+            >
+              Add to Cart
+            </button>
+          </div>
+        </a>
+        ;
+      </div>
+      <div
+        className="d-inline-flex"
+      >
+        <a
+          className="product-card"
+          href="/detail/121"
+          onClick={[Function]}
+        >
+          <img
+            alt={121}
+            src="https://4.bp.blogspot.com/-aI_KMIohZHQ/VN_63b-lsQI/AAAAAAAAZd4/6sifxckbEgQ/s1600/F%26N%2BNutriTea%2BBarley%2BDrink_1L.jpg"
+            style={
+              Object {
+                "height": "200px",
+              }
+            }
+          />
+          <h4
+            className="product-card-title"
+          >
+            Nutri Well Lemon Grass with Ginger
+             
+             
+             
+            Meiji
+          </h4>
+          <div>
+            
+          </div>
+          <div>
+            $
+            2.35
+          </div>
+          <div>
+            <button
+              className="btn-flat btn-red"
+              disabled={false}
+              onClick={[Function]}
+            >
+              Add to Cart
+            </button>
+          </div>
+        </a>
+        ;
+      </div>
+      <div
+        className="d-inline-flex"
+      >
+        <a
+          className="product-card"
+          href="/detail/122"
+          onClick={[Function]}
+        >
+          <img
+            alt={122}
+            src="https://4.bp.blogspot.com/-aI_KMIohZHQ/VN_63b-lsQI/AAAAAAAAZd4/6sifxckbEgQ/s1600/F%26N%2BNutriTea%2BBarley%2BDrink_1L.jpg"
+            style={
+              Object {
+                "height": "200px",
+              }
+            }
+          />
+          <h4
+            className="product-card-title"
+          >
+            Nutri Well Water Chestnut and Sugar cane
+             
+             
+             
+            Meiji
+          </h4>
+          <div>
+            
+          </div>
+          <div>
+            $
+            1.25
+          </div>
+          <div>
+            <button
+              className="btn-flat btn-red"
+              disabled={false}
+              onClick={[Function]}
+            >
+              Add to Cart
+            </button>
+          </div>
+        </a>
+        ;
+      </div>
+      <div
+        className="d-inline-flex"
+      >
+        <a
+          className="product-card"
+          href="/detail/123"
+          onClick={[Function]}
+        >
+          <img
+            alt={123}
+            src="https://4.bp.blogspot.com/-aI_KMIohZHQ/VN_63b-lsQI/AAAAAAAAZd4/6sifxckbEgQ/s1600/F%26N%2BNutriTea%2BBarley%2BDrink_1L.jpg"
+            style={
+              Object {
+                "height": "200px",
+              }
+            }
+          />
+          <h4
+            className="product-card-title"
+          >
+            Nutri Well Water cherysenthamums with Wolfberry
+             
+             
+             
+            Mangolia
+          </h4>
+          <div>
+            
+          </div>
+          <div>
+            $
+            2.25
+          </div>
+          <div>
+            <button
+              className="btn-flat btn-red"
+              disabled={false}
+              onClick={[Function]}
+            >
+              Add to Cart
+            </button>
+          </div>
+        </a>
+        ;
+      </div>
+      <div
+        className="d-inline-flex"
+      >
+        <a
+          className="product-card"
+          href="/detail/124"
+          onClick={[Function]}
+        >
+          <img
+            alt={124}
+            src="https://4.bp.blogspot.com/-aI_KMIohZHQ/VN_63b-lsQI/AAAAAAAAZd4/6sifxckbEgQ/s1600/F%26N%2BNutriTea%2BBarley%2BDrink_1L.jpg"
+            style={
+              Object {
+                "height": "200px",
+              }
+            }
+          />
+          <h4
+            className="product-card-title"
+          >
+            Nutri Uji Cha Yuzu Green Tea
+             
+             
+             
+            Mangolia
+          </h4>
+          <div>
+            
+          </div>
+          <div>
+            $
+            5.05
+          </div>
+          <div>
+            <button
+              className="btn-flat btn-red"
+              disabled={false}
+              onClick={[Function]}
+            >
+              Add to Cart
+            </button>
+          </div>
+        </a>
+        ;
+      </div>
+      <div
+        className="d-inline-flex"
+      >
+        <a
+          className="product-card"
+          href="/detail/125"
+          onClick={[Function]}
+        >
+          <img
+            alt={125}
+            src="https://4.bp.blogspot.com/-aI_KMIohZHQ/VN_63b-lsQI/AAAAAAAAZd4/6sifxckbEgQ/s1600/F%26N%2BNutriTea%2BBarley%2BDrink_1L.jpg"
+            style={
+              Object {
+                "height": "200px",
+              }
+            }
+          />
+          <h4
+            className="product-card-title"
+          >
+            Marigold Uji Cha Momo Green Tea
+             
+             
+             
+            Meiji
+          </h4>
+          <div>
+            
+          </div>
+          <div>
+            $
+            7.25
+          </div>
+          <div>
+            <button
+              className="btn-flat btn-red"
+              disabled={false}
+              onClick={[Function]}
+            >
+              Add to Cart
+            </button>
+          </div>
+        </a>
+        ;
+      </div>
+    </div>
+  </div>
+</div>
+`;

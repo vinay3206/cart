@@ -1,0 +1,6 @@
+.header {
+  height: 60px;
+  background-color: $header-background-color;
+  padding: 0.5rem 0;
+  @extend .border
+}

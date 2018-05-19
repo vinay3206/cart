@@ -1,0 +1,55 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly when product is provided 1`] = `
+<div
+  className="product-details-container"
+>
+  <h4
+    className="product-card-title"
+  >
+    Nutri Well Barly
+     
+     
+  </h4>
+  <div
+    className="details-image-container"
+  >
+    <img
+      alt={120}
+      src="https://4.bp.blogspot.com/-aI_KMIohZHQ/VN_63b-lsQI/AAAAAAAAZd4/6sifxckbEgQ/s1600/F%26N%2BNutriTea%2BBarley%2BDrink_1L.jpg"
+      style={
+        Object {
+          "height": "200px",
+        }
+      }
+    />
+  </div>
+  <div
+    className="details-content-container"
+  >
+    <div
+      className="details-content-container-capacity"
+    >
+      1
+      L
+    </div>
+    <div
+      className="details-content-container-price"
+    >
+      $
+      2.25
+    </div>
+    <div
+      className="details-content-container-description"
+    >
+      F&N NutriWell Barley is freshly brewed from a special home recipe using carefully selected pearl barley and dried winter melon strips. Barley, a grain full of pure goodness, is commonly used in home-brews, to make that familiar barley drink or in soups. All natural, with no added preservatives and reduced in sugar, F&N NutriWell Barley is the great-tasting
+    </div>
+    <button
+      className="btn-flat btn-red"
+      onClick={[Function]}
+    >
+      Add to Cart
+    </button>
+  </div>
+</div>
+`;

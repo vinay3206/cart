@@ -1,0 +1,37 @@
+.details-image-container {
+  width: 50%;
+  text-align: center;
+  background-color: white;
+  height: 400px;
+  vertical-align: middle;
+  padding-top: 5rem;
+  display: inline-block;
+}
+
+.details-content-container {
+  display: inline-block;
+  padding-left: 1rem;
+  vertical-align: top;
+  width: 45%;
+
+  &-capacity {
+    font-size: 1.3rem;
+  }
+
+  &-price {
+    font-size: 1.7rem;
+    font-weight: bold;
+  }
+
+  &-description {
+    font-size: 0.90rem;
+    word-wrap: break-word;
+    padding-top: 1rem;
+  }
+
+  &-add-btn {
+    vertical-align: bottom;
+  }
+
+
+}

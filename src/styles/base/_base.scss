@@ -1,0 +1,25 @@
+@mixin reset {
+  height: 100%;
+  margin: 0;
+}
+
+html {
+  @include reset;
+  font-family:'Open Sans', sans-serif;
+  background-color: white;
+  padding: 2rem;
+}
+
+body {
+  @include reset;
+
+  #root {
+    height: 100%;
+    font-family:'Open Sans', sans-serif;
+  }
+  color: $content-color !important;
+}
+
+input[type=checkbox] {
+  transform: scale(1.5);
+}

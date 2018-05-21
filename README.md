@@ -6,8 +6,24 @@ You can find the most recent version of this guide [here](https://github.com/fac
 ## To run project
 
 - [Available Scripts](#available-scripts)
-  - [npm install]
-  - [npm start](#npm-start)
-  - [npm test](#npm-test)
-  - [npm run build](#npm-run-build)
-  - [npm run eject](#npm-run-eject)
+  - npm install
+  - npm start
+  - npm test
+
+
+
+## TASK 1
+
+File structor is mostly comes with create react app. But to have some more structure i have created some folders inside src. Components is for keeping all the low order components which receives everything through props only. Containers are the high order components which controls whole page and have access to redux store and pass down those states to low order components. For testing i have used Jest and enzyme by airbnb
+which are quite famous to test a react app and have many functions which helps in testing your components.
+
+As u can application is e-commerce website where u can see the products, add them to cart, and then go to details page.
+
+So header component is something which is common across all the pages and used on all the containers.
+And passed different property value across different pages. It have access to store not directly but through its props which are passed from container components.
+
+## TASK 2
+
+Redux side effects : pure redux app the flow is -> some action is dispatched, and as a consequence, some state is changed. But most apps needs to connect to a server to get the data or do some analytics or talk to local storage. The process of app talking to server is redux side effects.
+
+Talking a example from the application i have created. 
